@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Demos with React Routing and API consuming using Axios and Fetch 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Concepts 
+1. React Routing. \
+2. API Consume using Axios and Fetch 
 
 ## Available Scripts
 
