@@ -65,6 +65,33 @@ import { NavLink, useNavigate } from "react-router-dom";
                         >
                             profile
                         </NavLink>
+
+                        <NavLink 
+                            className="navbar-item"
+                            activeClassName="is-active"
+                            to="/getposts"
+                            exact="true"
+                        >
+                          Get Posts     
+                        </NavLink>
+
+                        <NavLink 
+                           className="navbar-item"
+                           activeClassName="is-active"
+                           to="/saveposts"
+                           exact="true"
+                        >
+                            Save Posts
+                        </NavLink>
+
+                        <NavLink 
+                           className="navbar-item"
+                           activeClassName="is-active"
+                           to="/axiosposts"
+                           exact="true"
+                        >
+                            Axios API Posts
+                        </NavLink>
                     </div>
 
                     <div className="navbar-end">
